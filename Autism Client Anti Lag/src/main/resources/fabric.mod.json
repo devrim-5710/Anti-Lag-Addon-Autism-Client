@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "id": "nosnowball",
+  "version": "${version}",
+  "name": "Anti Lag Addon",
+  "description": "Removes thrown and airborne snowballs.",
+  "authors": [
+    "theflex5710"
+  ],
+  "custom": {
+    "autism:color": "150,195,255",
+    "modmenu": {
+      "parent": {
+        "id": "autism"
+      }
+    }
+  },
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "theflex5710.nosnowball.NoSnowballInit"
+    ],
+    "autism": [
+      "theflex5710.nosnowball.NoSnowballAddon"
+    ]
+  },
+  "depends": {
+    "java": ">=25",
+    "minecraft": "${mc_compat}",
+    "fabricloader": ">=0.19.3",
+    "fabric-api": ">=${fabric_api_version}",
+    "autism": ">=${autism_api_version}"
+  }
+}
