@@ -1,5 +1,5 @@
 # Anti-Lag-Addon-Autism-Client
-moduls
+Moduls
 NoSnowball
 NoMinecart
 NoBoat
